@@ -1,3 +1,10 @@
 .head h1 {
     text-align: center
 }
+.contenedor_flex {
+    display: flex
+    text-align: center
+}
+..elemento {
+    justify-content: space-between
+}

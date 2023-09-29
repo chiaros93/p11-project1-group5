@@ -1,31 +1,60 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header img {
+    width: 432px;
+    border: 4px beige solid;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 .head h1 {
     text-align: center
 }
-.contenedor_flex {
+.main{
     background-color: beige;
+}
+.menu {
+    background-color: grey;
     display: flex;
     justify-content: space-around; 
     text-align: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction:row;
+
 }
 
 
-.caja {
-    border: 1px solid rgb(70, 69, 69);
-    background-color: white;
+.encabezado {
+    
+    background-color: #D9D9D9;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    width: 120px;
-    height: 120px;
     text-align: center;
     margin:5px;
 }
+.team_members {
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+
+}
+
 
 .fotomiembro1 {
-height: 200px;
-width: 200px;
+height: 125px;
+width: 197x;
 border-radius: 250px;
 border-color: black;
 border-style: solid;
@@ -36,8 +65,8 @@ margin-bottom: 30px;
 
 }
 .fotomiembro2 {
-    height: 200px;    
-    width: 200px;
+    height: 125x;    
+    width: 197px;
     border-radius: 250px;
     border-color: black;
     border-style: solid;
@@ -48,8 +77,8 @@ margin-bottom: 30px;
     }
 
     .fotomiembro1 {
-        height: 200px;
-        width: 200px;
+        height: 125px;
+        width: 197px;
         border-radius: 250px;
         border-color: black;
         border-style: solid;

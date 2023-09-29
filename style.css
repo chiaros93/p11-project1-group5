@@ -22,10 +22,11 @@ nav {
     text-align: center
 }
 .main{
+    margin: 2%;
     background-color: beige;
 }
 .menu {
-    background-color: grey;
+    background-color: #D9D9D9;
     display: flex;
     justify-content: space-around; 
     text-align: center;
@@ -33,16 +34,64 @@ nav {
 
 }
 
+.descripcion {
+    font-size: 24px;
+    font-family: 'Inter', Courier, monospace;
+    font-weight: medium;
+
+} 
 
 .encabezado {
-    
+    width: 308px;
+    height: 54;
     background-color: #D9D9D9;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    color: #B95900;
+    font-family: 'Inter', Courier, monospace;
+    font-weight: bold, italic;
     text-align: center;
+    font-size: 32px;
     margin:5px;
 }
+.quienes_somos {
+    text-align: center;
+    margin-top: 2%;
+}
+.titulo_menu1 {
+    margin-bottom: -1%;
+    text-align: center;
+    color: #B95900;
+    font-family: 'Inter', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+}
+.team {
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.titulo_menu2 {
+    margin-top: 5%;
+    margin-bottom: -1%;
+    width: 300px;
+    height: 50px;
+    color: #B95900;
+    font-family: 'Inter', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.titulo_menu3 {
+    margin-bottom: -1%;
+    width: 300px;
+    height: 50px;
+    color: #B95900;
+    font-family: 'Inter', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
 .team_members {
     justify-content: space-around;
     margin: auto;
@@ -50,41 +99,72 @@ nav {
     display: flex;
 
 }
-
-
-.fotomiembro1 {
-height: 125px;
-width: 197x;
-border-radius: 250px;
-border-color: black;
-border-style: solid;
-border-width: 6px;
-margin-right: 30px;
-margin-left: 0px;
-margin-bottom: 30px;
-
+.foto_descripcion {
+    display: flex;
 }
-.fotomiembro2 {
-    height: 125x;    
-    width: 197px;
+
+.foto_miembro1 {
+    height: 150px;;    
+    width: 160px;
     border-radius: 250px;
     border-color: black;
     border-style: solid;
     border-width: 6px;
     margin-right: 30px;
     margin-left: 0px;
-    margin-bottom: 30px;    ;
+    margin-bottom: 30px;
+
+}
+.foto_miembro2 {
+    height: 150px;    
+    width: 160px;
+    border-radius: 250px;
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;    
     }
 
-    .fotomiembro1 {
-        height: 125px;
-        width: 197px;
-        border-radius: 250px;
-        border-color: black;
-        border-style: solid;
-        border-width: 6px;
-        margin-right: 30px;
-        margin-left: 0px;
-        margin-bottom: 30px;
+.foto_miembro3 {
+    height: 150px;
+    width: 160px;
+    border-radius: 250px;
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;         
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 30px;
         
         }
+    .descripcion_personal {
+        font-family: 'Inter', Courier, monospace;
+        font-size: 20px;
+    }
+
+.formulario_contacto {
+    margin: 2%;
+}
+
+.dato_contacto{
+    display: flex;
+
+
+}
+.Correo_electrónico {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Teléfono {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.deja{
+
+    font-family: 'Inter', Courier, monospace;
+    font-size: 20px;
+}
